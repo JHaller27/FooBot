@@ -1,0 +1,11 @@
+---
+application:
+  name: "foobot"
+  project: "Test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-foobot"
+  routes:
+  - application_name: "foobot"
+    paths:
+    - "/*"
